@@ -6,6 +6,7 @@ export interface Leave {
   startDate: string; // YYYY-MM-DD
   endDate: string; // YYYY-MM-DD
   notes?: string;
+  calendarEventId?: string; // Google Calendar event ID
 }
 
 export interface Employee {
